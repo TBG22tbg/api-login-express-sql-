@@ -65,7 +65,6 @@ async function realizarLogin(req, res) {
         console.log("Erro ao realizar login", erro);
         res.send("Erro ao realizar login");
     }
-<<<<<<< HEAD
 }
 
 
@@ -101,6 +100,4 @@ module.exports = {
     realizarLogin,
     exibirSucesso
 }
-=======
 };
->>>>>>> b05a506e872805261958eaa43d86054a1fb6e9a5
