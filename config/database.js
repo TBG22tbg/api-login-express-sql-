@@ -12,11 +12,7 @@ const conexao = mysql.createPool({
     // Pegando os dados do arquivo .env
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
-<<<<<<< HEAD
     password: process.env.DB_PASSWORD,
-=======
-    password: process.env.DB.PASSWORD,
->>>>>>> b05a506e872805261958eaa43d86054a1fb6e9a5
     database: process.env.DB_NAME
 });
 // Exporta a conexão do banco
