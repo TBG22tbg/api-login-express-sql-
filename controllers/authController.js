@@ -99,5 +99,4 @@ module.exports = {
     cadastrarUsuario,
     realizarLogin,
     exibirSucesso
-}
 };
